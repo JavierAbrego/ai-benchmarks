@@ -7,10 +7,11 @@ RESULTS_FILE="results.md"
 DATE_NOW=$(date +"%Y-%m-%d %H:%M:%S")
 
 MODELS=(
-  "lfm2:24b"
+#  "lfm2:24b"
   "glm-4.7-flash:q4_K_M"
   "nemotron-3-nano:30b"
   "gemma3:27b"
+  "gpt-oss:20b"
 )
 
 PROMPTS=(
