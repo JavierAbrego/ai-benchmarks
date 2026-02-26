@@ -1,0 +1,13 @@
+Date: 2026-02-26 17:22:28
+
+GPU Information:
+NVIDIA GeForce RTX 4060 Ti, 16380 MiB
+
+MODEL                     | TOKENS       | SECONDS      | TOKENS/S
+--------------------------------------------------------------------------
+Warmup: gemma3:12b
+gemma3:12b                | 3385         | 104.553006   | 32.37
+Warmup: gpt-oss:20b
+gpt-oss:20b               | 8399         | 134.290476   | 62.54
+
+Benchmark complete.
