@@ -1,0 +1,40 @@
+
+Model name:                           AMD EPYC 7443P 24-Core Processor
+
+Fri Feb 27 13:29:54 2026
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  |   00000000:44:00.0 Off |                  N/A |
+| 90%   46C    P2            218W /  350W |   19851MiB /  24576MiB |     42%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA GeForce RTX 3090        On  |   00000000:84:00.0 Off |                  N/A |
+| 80%   49C    P2            244W /  350W |   19835MiB /  24576MiB |     44%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
+Date: 2026-02-27 13:24:50
+
+GPU Information:
+NVIDIA GeForce RTX 3090, 24576 MiB
+NVIDIA GeForce RTX 3090, 24576 MiB
+
+MODEL                     | TOKENS       | SECONDS      | TOKENS/S
+--------------------------------------------------------------------------
+Warmup: glm-4.7-flash:q4_K_M
+glm-4.7-flash:q4_K_M      | 5889         | 58.005796    | 101.52
+Warmup: nemotron-3-nano:30b
+nemotron-3-nano:30b       | 9596         | 58.279857    | 164.65
+Warmup: gemma3:27b
+gemma3:27b                | 3117         | 75.902760    | 41.06
+Warmup: gpt-oss:20b
+gpt-oss:20b               | 9593         | 65.244854    | 147.03
+
+
+
+
