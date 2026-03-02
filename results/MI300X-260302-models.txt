@@ -1,0 +1,31 @@
+power using gemma3 27b 
+Every 1.0s: rocm-smi                                                                         e32737ff71f4: Mon Mar  2 12:30:25 2026
+
+AMD Instinct MI300X
+
+
+========================================== ROCm System Management Interface ==========================================
+==================================================== Concise Info ====================================================
+Device  [Model : Revision]    Temp        Power     Partitions      SCLK     MCLK     Fan  Perf  PwrCap  VRAM%  GPU%
+^[3m        Name (20 chars)       (Junction)  (Socket)  (Mem, Compute)                                                    ^[0m
+======================================================================================================================
+0       [0x74a1 : 0x00]       66.0°C      574.0W    NPS1, SPX       1571Mhz  1300Mhz  0%   auto  750.0W   50%   94%
+        AMD Instinct MI300X
+======================================================================================================================
+================================================ End of ROCm SMI Log =================================================
+CPU: 
+Model name:                         AMD EPYC 9474F 48-Core Processor
+
+MODEL                     | TOKENS       | SECONDS      | TOKENS/S
+--------------------------------------------------------------------------
+Warmup: glm-4.7-flash:q4_K_M
+glm-4.7-flash:q4_K_M      | 5615         | 63.049182    | 89.05
+Warmup: nemotron-3-nano:30b
+nemotron-3-nano:30b       | 7833         | 55.394834    | 141.40
+Warmup: gemma3:27b
+gemma3:27b                | 3071         | 50.211565    | 61.16
+Warmup: gpt-oss:20b
+gpt-oss:20b               | 7388         | 37.685013    | 196.04
+
+Benchmark complete.
+
